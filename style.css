@@ -1,6 +1,6 @@
 .sec .part-one{
     display: flex;
-    width: 85%;
+    width: 99%;
     height: 30%;
    
 }
@@ -18,7 +18,7 @@
 }
  .part-two{
      position: relative;
-     top: 210px;
+     top: 247px;
 
 }
 .container-grid{
@@ -40,13 +40,17 @@
 }
 #section3{
     position: relative;
-    top: 203px;
+    top: 247px;
     margin: 52px 120px;
+    width: 94%;
    
 }
+::-webkit-scrollbar{
+    display: none;
+  }
 footer{
     position: relative;
-    top: 546px;
+    top: 587px;
     border:1px solid violet;
     margin: 2px;
 }
