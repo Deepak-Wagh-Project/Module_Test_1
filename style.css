@@ -1,0 +1,52 @@
+.sec .part-one{
+    display: flex;
+    width: 85%;
+    height: 30%;
+   
+}
+.sec .p-2{
+    
+    height:45px;
+    width: 50%;
+  
+   
+    flex-grow: 0;
+   
+} 
+.sec img{
+   width: 100%;
+}
+ .part-two{
+     position: relative;
+     top: 210px;
+
+}
+.container-grid{
+    
+    grid-template-columns: 1fr 1fr 2fr;
+    row-gap: 20px;
+    
+    
+}
+.container .grid-container{
+
+    grid-template-columns: 1fr 2fr;
+    row-gap: 17px;
+}
+#section2{
+    position: relative;
+    top: 22px;
+      margin:  30px 120px;
+}
+#section3{
+    position: relative;
+    top: 203px;
+    margin: 52px 120px;
+   
+}
+footer{
+    position: relative;
+    top: 546px;
+    border:1px solid violet;
+    margin: 2px;
+}
